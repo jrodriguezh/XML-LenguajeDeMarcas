@@ -19,10 +19,24 @@
                             <xs:element name="indice_libro"></xs:element>
                             <xs:element name="sinopsis"></xs:element>
                         </xs:sequence>
-                        <xs:attribute name="referencia_libro"></xs:attribute>
-                        <xs:attribute name="tipo_clase_libro">
+                        <xs:attribute name="referencia_libro">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:length value="5"></xs:length>
+                                    <xs:pattern value="[L][0-9][0-9][0-9][0-9]"></xs:pattern>
+                                </xs:restriction>
+                            </xs:simpleType>
                         </xs:attribute>
-                        <xs:attribute name="paginas_libro"></xs:attribute>
+                        <xs:attribute name="tipo_clase_libro" use="required">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="novela"></xs:enumeration>
+                                    <xs:enumeration value="infantil"></xs:enumeration>
+                                    <xs:enumeration value="didactico"></xs:enumeration>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:attribute>
+                        <xs:attribute name="paginas_libro" type="xs:int"></xs:attribute>
                     </xs:complexType>
                 </xs:element>
 

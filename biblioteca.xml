@@ -7,51 +7,51 @@
             <titulo>El señor de los anillos</titulo>
             <capitulo paginas_capitulo="100">
                 <titulo_capitulo>Taller de maravillas</titulo_capitulo>
-                <contenido_libro></contenido_libro>
+                <contenido_libro>&contenido;</contenido_libro>
             </capitulo>
             <capitulo paginas_capitulo="100">
                 <titulo_capitulo>Localizando la Tierra Media</titulo_capitulo>
-                <contenido_libro></contenido_libro>
+                <contenido_libro>&contenido;</contenido_libro>
             </capitulo>
             <capitulo paginas_capitulo="100">
                 <titulo_capitulo>Construyendo el escenario</titulo_capitulo>
-                <contenido_libro></contenido_libro>
+                <contenido_libro>&contenido;</contenido_libro>
             </capitulo>
             <capitulo paginas_capitulo="100">
                 <titulo_capitulo>Un mundo en miniatura</titulo_capitulo>
-                <contenido_libro></contenido_libro>
+                <contenido_libro>&contenido;</contenido_libro>
             </capitulo>
             <capitulo paginas_capitulo="100">
                 <titulo_capitulo>Los grandes almacenes de la Tierra Media</titulo_capitulo>
-                <contenido_libro></contenido_libro>
+                <contenido_libro>&contenido;</contenido_libro>
             </capitulo>
             <capitulo paginas_capitulo="100">
                 <titulo_capitulo>Túnicas de rey y vestidos grandes de chica</titulo_capitulo>
-                <contenido_libro></contenido_libro>
+                <contenido_libro>&contenido;</contenido_libro>
             </capitulo>
             <capitulo paginas_capitulo="100">
                 <titulo_capitulo>Luchando en la Gerra del Anillo</titulo_capitulo>
-                <contenido_libro></contenido_libro>
+                <contenido_libro>&contenido;</contenido_libro>
             </capitulo>
             <capitulo paginas_capitulo="100">
                 <titulo_capitulo>Pelo de hobbit y patillas de mago</titulo_capitulo>
-                <contenido_libro></contenido_libro>
+                <contenido_libro>&contenido;</contenido_libro>
             </capitulo>
             <capitulo paginas_capitulo="100">
                 <titulo_capitulo>Haciendo caras</titulo_capitulo>
-                <contenido_libro></contenido_libro>
+                <contenido_libro>&contenido;</contenido_libro>
             </capitulo>
             <capitulo paginas_capitulo="100">
                 <titulo_capitulo>Rodando una obra maestra</titulo_capitulo>
-                <contenido_libro></contenido_libro>
+                <contenido_libro>&contenido;</contenido_libro>
             </capitulo>
             <capitulo paginas_capitulo="100">
                 <titulo_capitulo>Añadiendo la magia</titulo_capitulo>
-                <contenido_libro></contenido_libro>
+                <contenido_libro>&contenido;</contenido_libro>
             </capitulo>
             <capitulo paginas_capitulo="100">
                 <titulo_capitulo>Creando la banda sonora</titulo_capitulo>
-                <contenido_libro></contenido_libro>
+                <contenido_libro>&contenido;</contenido_libro>
             </capitulo>
             <indice_libro>1.Taller de maravillas
                 2.Localizando la Tierra Media
@@ -76,7 +76,7 @@
             <numero></numero>
             <indice_revista></indice_revista>
             <seccion_revista paginas_seccion_revista="20">
-                <contenido_revista></contenido_revista>
+                <contenido_revista>&contenido;</contenido_revista>
             </seccion_revista>
         </revista>
     </revistas>
@@ -86,7 +86,7 @@
             <indice_periodico></indice_periodico>
             <seccion_periodico tipo_seccion="nacional">
                 <articulo autor="Reverte">
-                    <contenido_periodico></contenido_periodico>
+                    <contenido_periodico>&contenido;</contenido_periodico>
                 </articulo>
             </seccion_periodico>
         </periodico>

@@ -25,7 +25,7 @@
 <!ELEMENT indice_revista (#PCDATA)>
 <!ELEMENT seccion_revista (contenido_revista)>
 <!ATTLIST seccion_revista paginas_seccion_revista CDATA #REQUIRED>
-<!ELEMENT contenido_revista ANY>
+<!ELEMENT contenido_revista (#PCDATA)>
 
 <!ELEMENT periodicos (periodico)>
 <!ELEMENT periodico (indice_periodico,seccion_periodico)>
@@ -39,4 +39,6 @@
 <!ATTLIST seccion_periodico tipo_seccion (economica|opinion|deportes|nacional|internacional) #REQUIRED>
 <!ELEMENT articulo (contenido_periodico)>
 <!ATTLIST articulo autor CDATA #REQUIRED>
-<!ELEMENT contenido_periodico ANY>
+<!ELEMENT contenido_periodico (#PCDATA)>
+
+<!ENTITY contenido "link">

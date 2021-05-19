@@ -1,6 +1,5 @@
-<!ELEMENT biblioteca (libros?,revistas?,periodicos?)>
-<!ELEMENT libros (libro*)>
-<!ELEMENT libro (titulo,capitulo+,indice_libro,sinopsis)>
+<!ELEMENT biblioteca (libro*,revista*,periodico*)>
+<!ELEMENT libro (titulo,indice_libro,sinopsis,capitulo+)>
 <!ATTLIST libro
     referencia_libro ID #REQUIRED
     tipo_clase_libro (novela|infantil|didactico) #REQUIRED

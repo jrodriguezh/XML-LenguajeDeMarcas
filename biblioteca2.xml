@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE biblioteca SYSTEM "biblioteca.dtd">
+<?xml-model href="biblioteca.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 
 <biblioteca>
     <libro referencia_libro="L0001" tipo_clase_libro="novela" paginas_libro="1200">
@@ -20,51 +20,51 @@
         <sinopsis>La novela narra el viaje del protagonista principal, Frodo Bolsón, hobbit de la Comarca, para destruir el Anillo Único y la consiguiente guerra que provocará el enemigo para recuperarlo, ya que es la principal fuente de poder de su creador, el Señor oscuro, Sauron.</sinopsis>
         <capitulo paginas_capitulo="100">
             <titulo_capitulo>Taller de maravillas</titulo_capitulo>
-            <contenido_libro>&contenido;</contenido_libro>
+            <contenido_libro enlace=""></contenido_libro>
         </capitulo>
         <capitulo paginas_capitulo="100">
             <titulo_capitulo>Localizando la Tierra Media</titulo_capitulo>
-            <contenido_libro>&contenido;</contenido_libro>
+            <contenido_libro enlace=""></contenido_libro>
         </capitulo>
         <capitulo paginas_capitulo="100">
             <titulo_capitulo>Construyendo el escenario</titulo_capitulo>
-            <contenido_libro>&contenido;</contenido_libro>
+            <contenido_libro enlace=""></contenido_libro>
         </capitulo>
         <capitulo paginas_capitulo="100">
             <titulo_capitulo>Un mundo en miniatura</titulo_capitulo>
-            <contenido_libro>&contenido;</contenido_libro>
+            <contenido_libro enlace=""></contenido_libro>
         </capitulo>
         <capitulo paginas_capitulo="100">
             <titulo_capitulo>Los grandes almacenes de la Tierra Media</titulo_capitulo>
-            <contenido_libro>&contenido;</contenido_libro>
+            <contenido_libro enlace=""></contenido_libro>
         </capitulo>
         <capitulo paginas_capitulo="100">
             <titulo_capitulo>Túnicas de rey y vestidos grandes de chica</titulo_capitulo>
-            <contenido_libro>&contenido;</contenido_libro>
+            <contenido_libro enlace=""></contenido_libro>
         </capitulo>
         <capitulo paginas_capitulo="100">
             <titulo_capitulo>Luchando en la Gerra del Anillo</titulo_capitulo>
-            <contenido_libro>&contenido;</contenido_libro>
+            <contenido_libro enlace=""></contenido_libro>
         </capitulo>
         <capitulo paginas_capitulo="100">
             <titulo_capitulo>Pelo de hobbit y patillas de mago</titulo_capitulo>
-            <contenido_libro>&contenido;</contenido_libro>
+            <contenido_libro enlace=""></contenido_libro>
         </capitulo>
         <capitulo paginas_capitulo="100">
             <titulo_capitulo>Haciendo caras</titulo_capitulo>
-            <contenido_libro>&contenido;</contenido_libro>
+            <contenido_libro enlace=""></contenido_libro>
         </capitulo>
         <capitulo paginas_capitulo="100">
             <titulo_capitulo>Rodando una obra maestra</titulo_capitulo>
-            <contenido_libro>&contenido;</contenido_libro>
+            <contenido_libro enlace=""></contenido_libro>
         </capitulo>
         <capitulo paginas_capitulo="100">
             <titulo_capitulo>Añadiendo la magia</titulo_capitulo>
-            <contenido_libro>&contenido;</contenido_libro>
+            <contenido_libro enlace=""></contenido_libro>
         </capitulo>
         <capitulo paginas_capitulo="100">
             <titulo_capitulo>Creando la banda sonora</titulo_capitulo>
-            <contenido_libro>&contenido;</contenido_libro>
+            <contenido_libro enlace=""></contenido_libro>
         </capitulo>
     </libro>
 
@@ -74,16 +74,16 @@
         <numero>023</numero>
         <indice_revista>Indice de la revista</indice_revista>
         <seccion_revista paginas_seccion_revista="20">
-            <contenido_revista>&contenido;</contenido_revista>
+            <contenido_revista enlace=""></contenido_revista>
         </seccion_revista>
     </revista>
 
 
-    <periodico referencia_periodico="P0001" tipo_clase_periodico="nacionales" fecha_publicacion="18-05-2021">
+    <periodico referencia_periodico="P0001" tipo_clase_periodico="nacionales" fecha_publicacion="2021-05-18">
         <indice_periodico>Indice del periodico</indice_periodico>
         <seccion_periodico tipo_seccion="nacional">
             <articulo autor="Isabel Vega">
-                <contenido_periodico>&contenido;</contenido_periodico>
+                <contenido_periodico enlace=""></contenido_periodico>
             </articulo>
         </seccion_periodico>
     </periodico>

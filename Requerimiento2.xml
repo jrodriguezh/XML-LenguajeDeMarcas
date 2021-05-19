@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="biblioteca.xsd">
+
+    <libro id="L0001" n_paginas="435" tipo_clase="novela">
+        <titulo>Titulo de libro</titulo>
+        <indice>Índice</indice>
+        <sinopsis>Sinopsis del libro</sinopsis>
+        <capitulo n_paginas="35">
+            <titulo>Título capítulo 1</titulo>
+            <contenido enlace=""></contenido>
+        </capitulo>
+        <capitulo n_paginas="400">
+            <titulo>Título capítulo 2</titulo>
+            <contenido enlace=""></contenido>
+        </capitulo>
+    </libro>
+    
+    <revista id="R0010" tipo_clase="informatica">
+        <numero>013</numero>
+        <titulo>Título de la revista</titulo>
+        <indice>Índice de la revista</indice>
+        <seccion n_paginas="15">
+            <contenido enlace=""></contenido>
+        </seccion>
+
+    </revista>
+
+    <revista id="R0011" tipo_clase="corazon">
+        <numero>013</numero>
+        <titulo>Título de la revista</titulo>
+        <indice>Índice de la revista</indice>
+        <seccion n_paginas="15">
+            <contenido enlace=""></contenido>
+        </seccion>
+
+    </revista>
+
+    
+    <periodico id="P0001" tipo_clase="nacional" fecha="2007-05-11">
+        <indice>Índice del periódico</indice>
+        <seccion_per tipo="economia">
+            <articulo autor="Pepe perez">
+                <contenido enlace=""></contenido>
+            </articulo>
+        </seccion_per>
+        
+    </periodico>
+
+    
+
+</biblioteca>

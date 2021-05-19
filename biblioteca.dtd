@@ -1,0 +1,47 @@
+<!ELEMENT biblioteca (libro*, revista*, periodico*)>
+
+<!-- Parte relativa a libro. Ya que algunos elementos serán comunes a los otros elementos tambíen se definen aquí-->
+
+<!ELEMENT libro (titulo, indice, sinopsis, capitulo+)>
+<!ATTLIST libro id ID #REQUIRED>
+<!ATTLIST libro n_paginas CDATA #REQUIRED>
+<!ATTLIST libro tipo_clase (novela | infantil | didactico) #REQUIRED>
+
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT capitulo (titulo, contenido)>
+<!ATTLIST capitulo n_paginas CDATA #REQUIRED>
+
+
+<!ELEMENT contenido (#PCDATA)>
+<!ATTLIST contenido enlace CDATA #REQUIRED>
+
+<!ELEMENT indice (#PCDATA)>
+<!ELEMENT sinopsis (#PCDATA)>
+
+<!-- Parte relativa a revista-->
+
+<!ELEMENT revista (numero, titulo, indice, seccion+)>
+<!ATTLIST revista id ID #REQUIRED>
+<!ATTLIST revista tipo_clase (informatica | corazon | coches | investigacion | otros) #REQUIRED>
+
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT seccion (contenido)>
+<!ATTLIST seccion n_paginas CDATA #REQUIRED>
+
+
+
+<!--Parte relativa al periodico-->
+
+
+
+<!ELEMENT periodico (seccion_per+, indice)>
+<!ATTLIST periodico id ID #REQUIRED>
+<!ATTLIST periodico tipo_clase CDATA #REQUIRED>
+<!ATTLIST periodico fecha_pub CDATA #REQUIRED>  
+
+
+<!ELEMENT seccion_per (articulo+)>
+<!ATTLIST seccion_per tipo (economia | opinion | deportes | nacional | internacional) #REQUIRED>
+
+<!ELEMENT articulo (contenido)>
+<!ATTLIST articulo autor_art CDATA #REQUIRED>

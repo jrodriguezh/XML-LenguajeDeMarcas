@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="biblioteca">
+        <xs:complexType>
+            <xs:sequence>
+
+                <xs:element name="libro">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="titulo" type="xs:string"></xs:element>
+                            <xs:element name="capitulo">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="titulo_capitulo"></xs:element>
+                                        <xs:element name="contenido_libro"></xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="indice_libro"></xs:element>
+                            <xs:element name="sinopsis"></xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="referencia_libro"></xs:attribute>
+                        <xs:attribute name="tipo_clase_libro">
+                            <xs:simpleType>
+                                <xs:list>
+                                    <xs:enumeration value="novela"></xs:enumeration>
+                                    <xs:enumeration value="infantil"></xs:enumeration>
+                                    <xs:enumeration value="didactico"></xs:enumeration>
+                                </xs:list>
+                            </xs:simpleType>
+                        </xs:attribute>
+                        <xs:attribute name="paginas_libro"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="revista">
+                    <xs:complexType>
+                        <xs:sequence></xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="periodico">
+                    <xs:complexType>
+                        <xs:sequence></xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

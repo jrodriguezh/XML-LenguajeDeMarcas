@@ -34,7 +34,7 @@
     </xs:attribute>
       <xs:attribute name="tipo_clase_libro" use="required">
         <xs:simpleType>
-          <xs:restriction base="xs:NMTOKEN">
+          <xs:restriction base="xs:string">
             <xs:enumeration value="novela" />
             <xs:enumeration value="infantil" />
             <xs:enumeration value="didactico" />
@@ -102,7 +102,11 @@
   <xs:element name="seccion_revista">
     <xs:complexType>
       <xs:sequence>
-        <xs:element ref="contenido_revista" />
+          <xs:element name="contenido_revista">
+              <xs:complexType mixed="true">
+                  <xs:attribute name="enlace" type="xs:string" />
+              </xs:complexType>
+          </xs:element>
       </xs:sequence>
       <xs:attribute name="paginas_seccion" type="xs:integer" use="required" />
     </xs:complexType>
@@ -122,7 +126,7 @@
         <xs:element ref="seccion_periodico" minOccurs="0" maxOccurs="unbounded" />
       </xs:sequence>
 
-      <xs:attribute name="id" use="required">
+      <xs:attribute name="id_periodico" use="required">
         <xs:simpleType>
             <xs:restriction base="xs:string">
                 <xs:pattern value="[P][0-9]{4}"></xs:pattern>
@@ -163,7 +167,11 @@
   <xs:element name="articulo">
     <xs:complexType>
       <xs:sequence>
-        <xs:element ref="contenido_periodico" />
+          <xs:element name="contenido_periodico">
+              <xs:complexType mixed="true">
+                  <xs:attribute name="enlace" type="xs:string" />
+              </xs:complexType>
+          </xs:element>
       </xs:sequence>
       <xs:attribute name="autor" type="xs:string" use="required" />
     </xs:complexType>

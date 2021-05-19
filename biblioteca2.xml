@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:noNamespaceSchemaLocation="biblioteca.xsd">
-
+<?xml-model href="biblioteca.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<biblioteca>
     <libros>
         <libro id_libro="L0001" tipo_clase_libro="novela" paginas_libro="177">
             <titulo>El orden del tiempo</titulo>
             <capitulo paginas_cap="50">
                 <titulo_cap>La disgregacion del tiempo</titulo_cap>
-                <contenido_libro>&contenido;</contenido_libro>
+                <contenido_libro></contenido_libro>
             </capitulo>
             <capitulo paginas_cap="27">
                 <titulo_cap>El mundo sin tiempo</titulo_cap>
-                <contenido_libro>&contenido;</contenido_libro>
+                <contenido_libro></contenido_libro>
             </capitulo>
             <capitulo paginas_cap="100"> 
                 <titulo_cap>Las fuentes del tiempo</titulo_cap>
-                <contenido_libro>&contenido;</contenido_libro>
+                <contenido_libro></contenido_libro>
             </capitulo>
             <indice_libro>
                 1. La disgregación del tiempo.
@@ -36,19 +35,19 @@ xsi:noNamespaceSchemaLocation="biblioteca.xsd">
                 3. IA en las Administraciones.
             </indice_revista>
             <seccion_revista paginas_seccion="71">
-                <contenido_revista>&contenido;</contenido_revista>
+                <contenido_revista enlace=""></contenido_revista>
             </seccion_revista>
             <seccion_revista paginas_seccion="200">
-                <contenido_revista>&contenido;</contenido_revista>
+                <contenido_revista enlace=""></contenido_revista>
             </seccion_revista>
             <seccion_revista paginas_seccion="50">
-                <contenido_revista>&contenido;</contenido_revista>
+                <contenido_revista enlace=""></contenido_revista>
             </seccion_revista>
         </revista>
     </revistas>
 
     <periodicos>
-        <periodico id_periodico="P0001" tipo_clase_periodico="nacional" fecha_publicacion="18-05-2021">
+        <periodico id_periodico="P0001" tipo_clase_periodico="nacional" fecha_publicacion="2021-05-31">
             <indice_periodico>
                 1. Madrid celebra el Día de los Museos.
                 2. La historia de superación de la pequeña Naiara.
@@ -58,13 +57,14 @@ xsi:noNamespaceSchemaLocation="biblioteca.xsd">
             </indice_periodico>
             <seccion_periodico tipo_seccion="opinion">
                 <articulo autor="Jesús Perez">
-                    <contenido_periodico>&contenido;</contenido_periodico>
+                    <contenido_periodico enlace="">Madrid celebra el Día de los Museos.</contenido_periodico>
                 </articulo>
             </seccion_periodico>
             <seccion_periodico tipo_seccion="nacional">
                 <articulo autor="José Luis Marquez">
-                    <contenido_periodico>&contenido;</contenido_periodico>
+                    <contenido_periodico enlace="">La historia de superación de la pequeña Naiara</contenido_periodico>
                 </articulo>
             </seccion_periodico>
         </periodico>
     </periodicos>
+</biblioteca>

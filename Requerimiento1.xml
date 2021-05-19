@@ -27,7 +27,7 @@
     <periodico id="P0001" tipo_clase="nacional" fecha_pub="07/05/11">
         <seccion_per tipo="economia">
             <articulo autor_art="Pepe perez">
-                <contenido>&contenidoarticulo;</contenido>
+                <contenido>&contenidoarticulo;git </contenido>
             </articulo>
         </seccion_per>
         <indice>Índice del periódico</indice>

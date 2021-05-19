@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca SYSTEM "biblioteca.dtd">
+
+<biblioteca>
+    <libros>
+        <libro id_libro="L0001" tipo_clase_libro="novela" paginas_libro="177">
+            <titulo>El orden del tiempo</titulo>
+            <capitulo paginas_cap="50" titulo_cap="La disgregacion del tiempo">
+                <contenido_libro>La disgregación del tiempo</contenido_libro>
+            </capitulo>
+            <capitulo paginas_cap="27" titulo_cap="El mundo sin tiempo">
+                <contenido_libro>El mundo sin tiempo</contenido_libro>
+            </capitulo>
+            <capitulo paginas_cap="100" titulo_cap="Las fuentes del tiempo">
+                <contenido_libro>Las fuentes del tiempo</contenido_libro>
+            </capitulo>
+            <indice>
+                1. La disgregación del tiempo.
+                2. El mundo sin tiempo.
+                3. Las fuentes del tiempo.
+            </indice>
+            <sinopsis>Carlo Rovelli aborda el tiempo y sus enigmas con una combinación única de rigor, capacidad divulgativa y bagaje humanístico.</sinopsis>
+        </libro>
+    </libros>
+
+    <revistas>
+        <revista id_revista="R0001" tipo_clase_revista="informatica" paginas_rev="321">
+            <titulo_revista>Byte</titulo_revista>
+            <numero>293</numero>
+            <indice_revista>
+                1. Microservicios, contenedores, dockers y kubernetes.
+                2. Centro de datos e hiperconvergencia.
+                3. IA en las Administraciones.
+            </indice_revista>
+            <seccion_revista paginas_seccion="71">
+                <contenido_revista>Microservicios, contenedores, dockers y kubernetes.</contenido_revista>
+            </seccion_revista>
+            <seccion_revista paginas_seccion="200">
+                <contenido_revista>Centro de datos e hiperconvergencia.</contenido_revista>
+            </seccion_revista>
+            <seccion_revista paginas_seccion="50">
+                <contenido_revista>IA en las Administraciones.</contenido_revista>
+            </seccion_revista>
+        </revista>
+    </revistas>
+
+    <periodicos>
+        <periodico id_periodico="P0001" tipo_clase_periodico="nacional" fecha_publicacion="18-05-2021">
+            <indice_periodico>
+                1. Madrid celebra el Día de los Museos.
+                2. La historia de superación de la pequeña Naiara.
+                3. La Jean-Luc Godard Street Band presenta disco.
+                4. VIII Campamento Deportivo Urbano de Verano.
+                5. Así ha votado Carabanchel en las elecciones a la Comunidad de Madrid.
+            </indice_periodico>
+            <seccion_periodico tipo_seccion="opinion">
+                <articulo autor="Jesús Perez">
+                    <contenido_periodico>Madrid celebra el Día de los Museos</contenido_periodico>
+                </articulo>
+            </seccion_periodico>
+            <seccion_periodico tipo_seccion="nacional">
+                <articulo autor="José Luis Marquez">
+                    <contenido_periodico>La historia de superación de la pequeña Naiara</contenido_periodico>
+                </articulo>
+            </seccion_periodico>
+        </periodico>
+    </periodicos>
+
+</biblioteca>

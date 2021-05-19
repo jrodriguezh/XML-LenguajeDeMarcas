@@ -10,7 +10,7 @@
 <!ELEMENT capitulo (titulo_capitulo,contenido_libro)>
 <!ATTLIST capitulo paginas_capitulo CDATA #REQUIRED>
 <!ELEMENT titulo_capitulo (#PCDATA)>
-<!ELEMENT contenido_libro ANY>
+<!ELEMENT contenido_libro (#PCDATA)>
 <!ELEMENT indice_libro (#PCDATA)>
 <!ELEMENT sinopsis (#PCDATA)>
 
@@ -41,4 +41,4 @@
 <!ATTLIST articulo autor CDATA #REQUIRED>
 <!ELEMENT contenido_periodico (#PCDATA)>
 
-<!ENTITY contenido "link">
+<!ENTITY contenido SYSTEM "link">

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE biblioteca SYSTEM "biblioteca.dtd">
+
 <biblioteca>
     <libros>
         <libro id_libro="L0001" tipo_clase_libro="novela" paginas_libro="177">

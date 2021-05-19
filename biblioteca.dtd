@@ -10,7 +10,7 @@
 <!ELEMENT capitulo (titulo_capitulo,contenido_libro)>
 <!ATTLIST capitulo paginas_capitulo CDATA #REQUIRED>
 <!ELEMENT titulo_capitulo (#PCDATA)>
-<!ELEMENT contenido_libro (#PCDATA)>
+<!ELEMENT contenido_libro ANY>
 <!ELEMENT indice_libro (#PCDATA)>
 <!ELEMENT sinopsis (#PCDATA)>
 
@@ -25,7 +25,7 @@
 <!ELEMENT indice_revista (#PCDATA)>
 <!ELEMENT seccion_revista (contenido_revista)>
 <!ATTLIST seccion_revista paginas_seccion_revista CDATA #REQUIRED>
-<!ELEMENT contenido_revista (#PCDATA)>
+<!ELEMENT contenido_revista ANY>
 
 <!ELEMENT periodicos (periodico)>
 <!ELEMENT periodico (indice_periodico,seccion_periodico)>
@@ -39,4 +39,4 @@
 <!ATTLIST seccion_periodico tipo_seccion (economica|opinion|deportes|nacional|internacional) #REQUIRED>
 <!ELEMENT articulo (contenido_periodico)>
 <!ATTLIST articulo autor CDATA #REQUIRED>
-<!ELEMENT contenido_periodico (#PCDATA)>
+<!ELEMENT contenido_periodico ANY>

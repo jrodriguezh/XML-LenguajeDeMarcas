@@ -7,11 +7,11 @@
         <sinopsis>Sinopsis del libro</sinopsis>
         <capitulo n_paginas="35">
             <titulo>Título capítulo 1</titulo>
-            <contenido enlace=""></contenido>
+            <contenido>&contenidocapitulo1; </contenido>
         </capitulo>
         <capitulo n_paginas="400">
             <titulo>Título capítulo 2</titulo>
-            <contenido enlace=""></contenido>
+            <contenido>&contenidocapitulo2;</contenido>
         </capitulo>
     </libro>
     <revista id="R0010" tipo_clase="informatica">
@@ -19,7 +19,7 @@
         <titulo>Título de la revista</titulo>
         <indice>Índice de la revista</indice>
         <seccion n_paginas="15">
-            <contenido enlace=""></contenido>
+            <contenido>&contenidorevista;</contenido>
         </seccion>
 
     </revista>
@@ -27,7 +27,7 @@
     <periodico id="P0001" tipo_clase="nacional" fecha_pub="07/05/11">
         <seccion_per tipo="economia">
             <articulo autor_art="Pepe perez">
-                <contenido enlace=""></contenido>
+                <contenido>&contenidoarticulo;</contenido>
             </articulo>
         </seccion_per>
         <indice>Índice del periódico</indice>

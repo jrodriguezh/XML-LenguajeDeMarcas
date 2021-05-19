@@ -13,10 +13,13 @@
 
 
 <!ELEMENT contenido (#PCDATA)>
-<!ATTLIST contenido enlace CDATA #REQUIRED>
+<!ENTITY contenidocapitulo1 "Url del contenido de capítulo1">
+<!ENTITY contenidocapitulo2 SYSTEM "Url del contenido de capitulo2">
 
 <!ELEMENT indice (#PCDATA)>
 <!ELEMENT sinopsis (#PCDATA)>
+
+
 
 <!-- Parte relativa a revista-->
 
@@ -27,6 +30,8 @@
 <!ELEMENT numero (#PCDATA)>
 <!ELEMENT seccion (contenido)>
 <!ATTLIST seccion n_paginas CDATA #REQUIRED>
+
+<!ENTITY contenidorevista SYSTEM "URL del contenido de la revista">
 
 
 
@@ -45,3 +50,5 @@
 
 <!ELEMENT articulo (contenido)>
 <!ATTLIST articulo autor_art CDATA #REQUIRED>
+
+<!ENTITY contenidoarticulo SYSTEM "Url del articulo referido">

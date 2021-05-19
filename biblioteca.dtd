@@ -40,4 +40,4 @@
 <!ATTLIST articulo autor CDATA #REQUIRED>
 <!ELEMENT contenido_periodico (#PCDATA)>
 
-<!ENTITY contenido SYSTEM "link">
+<!ENTITY contenido "link">

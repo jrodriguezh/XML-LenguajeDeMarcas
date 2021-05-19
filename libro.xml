@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libro SYSTEM "libro.dtd">
+<libro id="L0001" genero="novela">
+    <titulo>La biblioteca de los muertos</titulo>
+    <capitulos>
+        <capitulo>
+            <titulo>capitulo 1</titulo>
+            <numero_paginas>20</numero_paginas>
+        </capitulo>
+        <capitulo>
+            <titulo>capitulo 2</titulo>
+            <numero_paginas>25</numero_paginas>
+        </capitulo>
+        <capitulo>
+            <titulo>capitulo 3</titulo>
+            <numero_paginas>28</numero_paginas>
+        </capitulo>
+        <capitulo>
+            <titulo>capitulo 4</titulo>
+            <numero_paginas>32</numero_paginas>
+        </capitulo>
+    </capitulos>
+    <indice>indice</indice>
+    <sinopsis>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Nihil quasi vitae quam assumenda enim nemo placeat tempora magnam praesentium sed cum, 
+        minus, totam in error. Laudantium impedit molestiae excepturi earum?
+    </sinopsis>
+    <numero_paginas>200</numero_paginas>
+    <contenido>
+        <![CDATA[ 
+            <html>
+                <head>
+                    <title>informacion del libro</title>
+                </head>
+                <body>
+                    <h1>La biblioteca de los muertos</h1>
+                </body>
+            </html>
+            ]]>
+    </contenido>
+</libro>

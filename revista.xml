@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE revista SYSTEM "revista.dtd">
+<revista id="r0001" tipo_clase="informatica">
+    <titulo>La informatica y su p....</titulo>
+    <numero> 1 </numero>
+    <indice>
+        1.Aprende tela, 2.buscate la vida, 3.haz lo que puedas.
+    </indice>
+    <secciones>
+        <seccion>
+            <numero_paginas>9</numero_paginas>
+            <contenido>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis pariatur,
+                explicabo autem ex a recusandae possimus maxime natus
+                corporis minus asperiores deserunt
+                blanditiis voluptates et omnis minima unde quasi at
+            </contenido>
+        </seccion>
+    </secciones>
+   
+    <numero_paginas>55</numero_paginas>
+    <contenido>
+        <![CDATA[ 
+        <html>
+            <head>
+                <title>informacion de la revista</title>
+            </head>
+            <body>
+                <h1>La Informatica y toda su...</h1>
+            </body>
+        </html>
+        ]]>
+    </contenido>
+</revista>

@@ -1,0 +1,14 @@
+<!ELEMENT periodico (categoria, fecha_publicacion,secciones, indice,contenido)>
+<!ATTLIST periodico id CDATA #REQUIRED>
+
+<!ELEMENT fecha_publicacion (#PCDATA)>
+<!ELEMENT secciones (seccion+)>
+
+<!ELEMENT seccion (articulos)>
+<!ATTLIST seccion tipo CDATA #REQUIRED>
+
+<!ELEMENT articulos (#PCDATA)>
+<!ATTLIST articulos autor CDATA #REQUIRED>
+
+<!ELEMENT indice (#PCDATA)>
+<!ELEMENT contenido (#PCDATA)>

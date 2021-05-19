@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE periodico SYSTEM "periodico.dtd">
+<periodico id="P0001" categoria="nacional">
+    <fecha_publicacion>21 mayo de 2021</fecha_publicacion>
+    <secciones>
+        <seccion tipo="opinion">
+            <articulos autor="Yo mismo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis pariatur,
+                explicabo autem ex a recusandae possimus maxime natus
+                corporis minus asperiores deserunt
+                blanditiis voluptates et omnis minima unde quasi at    
+            </articulos>
+        </seccion>
+    </secciones>
+   
+    <indice>papapapa</indice>
+    <contenido>
+        <![CDATA[ 
+        <html>
+            <head>
+                <title>informacion del Periodico</title>
+            </head>
+            <body>
+                <h1>La SinRazon</h1>
+            </body>
+        </html>
+        ]]>
+    </contenido>
+</periodico>

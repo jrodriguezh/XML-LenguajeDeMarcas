@@ -1,13 +1,12 @@
-<!ELEMENT libro (genero,titulo,capitulos,indice,sinopsis,numero_paginas,contenido)>
-<!ELEMENT id (#PCDATA)>
-<!ELEMENT genero (#PCDATA)>
+<!ELEMENT libro (titulo,capitulos,numero_paginas,contenido)>
+<!ATTLIST libro id CDATA #REQUIRED>
+<!ATTLIST libro genero CDATA #REQUIRED>
 
 <!ELEMENT titulo (#PCDATA)>
 <!ELEMENT capitulos (capitulo+)>
 
-<!ELEMENT capitulo (titulo,numero_paginas)>
-<!ELEMENT indice (#PCDATA)>
-<!ELEMENT sinopsis (#PCDATA)>
-<!ELEMENT numero_paginas (#PCDATA)>
-
+<!ELEMENT capitulo (titulo,indice,sinopsis,numero_paginas)>
+<!ATTLIST capitulo indice CDATA >
+<!ATTLIST capitulo sinopsis CDATA >
+<!ATTLIST capitulo numero_paginas CDATA >
 <!ENTITY contenido "link">

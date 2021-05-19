@@ -6,8 +6,7 @@
 <!ELEMENT numero (#PCDATA)>
 <!ELEMENT indice (#PCDATA)>
 <!ELEMENT secciones (seccion+)>
-<!--usamos + porque esta permitido que aparezca mas de una vez-->
 
 <!ELEMENT seccion (numero_paginas,contenido)>
-<!ELEMENT numero_paginas (#PCDATA)>
-<!ELEMENT contenido (#PCDATA)>
+<!ATTLIST seccion numero_paginas CDATA >
+<!ELEMENT seccion contenido CDATA >

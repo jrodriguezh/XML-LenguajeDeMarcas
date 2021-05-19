@@ -5,20 +5,23 @@
     <libros>
         <libro id_libro="L0001" tipo_clase_libro="novela" paginas_libro="177">
             <titulo>El orden del tiempo</titulo>
-            <capitulo paginas_cap="50" titulo_cap="La disgregacion del tiempo">
+            <capitulo paginas_cap="50">
+                <titulo_cap>La disgregacion del tiempo</titulo_cap>
                 <contenido_libro>La disgregación del tiempo</contenido_libro>
             </capitulo>
-            <capitulo paginas_cap="27" titulo_cap="El mundo sin tiempo">
+            <capitulo paginas_cap="27">
+                <titulo_cap>El mundo sin tiempo</titulo_cap>
                 <contenido_libro>El mundo sin tiempo</contenido_libro>
             </capitulo>
-            <capitulo paginas_cap="100" titulo_cap="Las fuentes del tiempo">
-                <contenido_libro>Las fuentes del tiempo</contenido_libro>
+            <capitulo paginas_cap="100"> 
+                <titulo_cap>Las fuentes del tiempo</titulo_cap>
+                <contenido_libro>&contenido;</contenido_libro>
             </capitulo>
-            <indice>
+            <indice_libro>
                 1. La disgregación del tiempo.
                 2. El mundo sin tiempo.
                 3. Las fuentes del tiempo.
-            </indice>
+            </indice_libro>
             <sinopsis>Carlo Rovelli aborda el tiempo y sus enigmas con una combinación única de rigor, capacidad divulgativa y bagaje humanístico.</sinopsis>
         </libro>
     </libros>

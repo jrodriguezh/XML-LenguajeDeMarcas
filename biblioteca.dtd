@@ -15,7 +15,7 @@
 <!ELEMENT sinopsis (#PCDATA)>
 
 <!ELEMENT revistas (revista)>
-<!ELEMENT revista (titulo, numero, indice_revista, seccion_revista)>
+<!ELEMENT revista (titulo_revista, numero, indice_revista, seccion_revista*)>
 <!ATTLIST revista
     id_revista ID #REQUIRED
     tipo_clase_revista (informatica|corazon|coches|investigacion|otras) #REQUIRED
@@ -31,7 +31,7 @@
 <!ELEMENT contenido_revista (#PCDATA)>
 
 <!ELEMENT periodicos (periodico)>
-<!ELEMENT periodico (indice_periodico,seccion_periodico)>
+<!ELEMENT periodico (indice_periodico,seccion_periodico*)>
 <!ATTLIST periodico id_periodico ID #REQUIRED
 tipo_clase_periodico (nacional|internacional) #REQUIRED
 fecha_publicacion CDATA #IMPLIED
@@ -43,3 +43,4 @@ fecha_publicacion CDATA #IMPLIED
 <!ELEMENT articulo (contenido_periodico)>
 <!ATTLIST articulo autor CDATA #REQUIRED>
 <!ELEMENT contenido_periodico (#PCDATA)>
+<!ENTITY contenido "link">
